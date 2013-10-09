@@ -1,0 +1,166 @@
+{
+  "bounds": [
+    -97.0312,
+    32.25,
+    -71.7187,
+    47.7541
+  ],
+  "center": [
+    -86.2498,
+    41.6714,
+    12
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 12,
+  "maxzoom": 17,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": "water",
+      "class": "",
+      "Datasource": {
+        "file": "gis_stuff/water/water.shp",
+        "id": "water",
+        "project": "sbTranspo",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "water"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -86.2740256,
+        41.6649688,
+        -86.1838753,
+        41.7162452
+      ],
+      "id": "sbPolygons",
+      "class": "",
+      "Datasource": {
+        "file": "gis_stuff/sbPolygons/sbPolygons2.shp",
+        "id": "sbPolygons",
+        "project": "sbTranspo",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "sbPolygons"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -86.52641034202301,
+        41.43294918231886,
+        -86.05939437269522,
+        41.760687933676806
+      ],
+      "id": "sbRoads",
+      "class": "",
+      "Datasource": {
+        "file": "gis_stuff/sbRoads/sbRoads.shp",
+        "id": "sbRoads",
+        "project": "sbTranspo",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "sbRoads"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -86.347393,
+        41.62222,
+        -86.108264,
+        41.7449299
+      ],
+      "id": "sbRoutes",
+      "class": "",
+      "Datasource": {
+        "file": "gis_stuff/sbRoutesv.4/sbRoutesv.5.shp",
+        "id": "sbRoutes",
+        "project": "sbTranspo",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "sbRoutes"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -86.2740256,
+        41.6649688,
+        -86.1838753,
+        41.7162452
+      ],
+      "id": "sbPolygonsNames",
+      "class": "",
+      "Datasource": {
+        "file": "gis_stuff/sbPolygons/sbPolygons2.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "sbPolygonsNames"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -86.52641034202301,
+        41.43294918231886,
+        -86.05939437269522,
+        41.760687933676806
+      ],
+      "id": "sbRoadsNames",
+      "class": "",
+      "Datasource": {
+        "file": "gis_stuff/sbRoads/sbRoads.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "sbRoadsNames"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -86.3312651687962,
+        41.62313346999333,
+        -86.10796569729179,
+        41.744578850443624
+      ],
+      "id": "sbPOI",
+      "class": "",
+      "Datasource": {
+        "file": "gis_stuff/sbPOI/sbPOI.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "sbPOI"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "South Bend Transpo",
+  "description": "",
+  "attribution": ""
+}
