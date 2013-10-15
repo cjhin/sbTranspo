@@ -101,28 +101,30 @@ Map {
     line-width: 4;
     line-color: #fff;
 }
-/*
+
+
 //zoom >=16
+#sbRoads[TYPE="secondary"][zoom >= 16],
+#sbRoads[TYPE="tertiary"][zoom >= 16],
 #sbRoads[TYPE="residential"][zoom >= 16] {
   ::outline {
     line-width: 4.5;
     line-color: #acacac;
 }
-    line-width: 4;
+   line-width: 4;
     line-color: #fff;
 }
 #sbRoads[TYPE="trunk"][zoom >= 16],
 #sbRoads[TYPE="motorway_link"][zoom >= 16],
-#sbRoads[TYPE="motorway"][zoom >= 16],
-#sbRoads[TYPE="primary"][zoom >= 16]{
+#sbRoads[TYPE="motorway"][zoom >= 16]
+#sbRoads[TYPE="primary"][zoom >= 16] {
   ::outline {
     line-width: 8;
     line-color: #acacac;
 }
     line-width: 7.5;
     line-color: #fff;
-}*/
-
+}
 
 
 ////////////////////////
@@ -170,11 +172,14 @@ Map {
     
     }
 }
-#sbRoutes[zoom>=14]{
+#sbRoutes[zoom>=13]{
   line-width:3;
 }
+#sbRoutes[zoom>=14]{
+  line-width:3.5;
+}
 #sbRoutes[zoom>=16]{
-  line-width:5;
+  line-width:5.5;
 }
 
 #sbRoutes[Route_No="1"]{
@@ -194,15 +199,15 @@ Map {
   text-halo-fill: green;
     }  }
 #sbRoutes[Route_No="5"]{
-  	line-color:orange;
+  	line-color:orchid;
   ::labels{
-  text-halo-fill: orange;
+  text-halo-fill: orchid;
     }  
 }
 #sbRoutes[Route_No="6"]{
-  	line-color:pink;
+  	line-color:orange;
   ::labels{
-  text-halo-fill: pink;
+  text-halo-fill: orange;
     }  
 }
 #sbRoutes[Route_No="7"]{
@@ -236,9 +241,9 @@ Map {
     }  
 }
 #sbRoutes[Route_No="12"]{
-  	line-color:maroon;
+  	line-color:steelblue;
   ::labels{
-  text-halo-fill: maroon;
+  text-halo-fill: steelblue;
     }  
 }
 #sbRoutes[Route_No="13"]{
